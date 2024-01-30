@@ -1926,6 +1926,35 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSButton",
+                "printedName": "DynamicSwiftKit.DSButton",
+                "usr": "c:@M@DynamicSwiftKit@objc(cs)DSButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSButtonStyle",
+                "printedName": "DynamicSwiftKit.DSButtonStyle",
+                "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit8DSButtonC5styleAcA0D5StyleO_tcfc",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC5styleAcA0D5StyleO_tcfc",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "layoutSubviews",
             "printedName": "layoutSubviews()",
@@ -2501,6 +2530,382 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "DSSideMenuSubItem",
+        "printedName": "DSSideMenuSubItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvp",
+            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvg",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvs",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvM",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedIcon",
+            "printedName": "selectedIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvs",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvM",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvp",
+            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvg",
+                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV",
+        "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2754,6 +3159,396 @@
         "kind": "TypeDecl",
         "name": "DSSideMenuItem",
         "printedName": "DSSideMenuItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedIcon",
+            "printedName": "selectedIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvs",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvM",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvp",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvg",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvp",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvg",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subItems",
+            "printedName": "subItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSSideMenuSubItem",
+                        "printedName": "DynamicSwiftKit.DSSideMenuSubItem",
+                        "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvp",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSSideMenuSubItem",
+                            "printedName": "DynamicSwiftKit.DSSideMenuSubItem",
+                            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvg",
+                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:15DynamicSwiftKit14DSSideMenuItemV",
         "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV",
@@ -3944,6 +4739,54 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tabs:tabBarController:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSTabBar",
+                "printedName": "DynamicSwiftKit.DSTabBar",
+                "usr": "c:@M@DynamicSwiftKit@objc(cs)DSTabBar"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DynamicSwiftKit.DSTab]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTab",
+                    "printedName": "DynamicSwiftKit.DSTab",
+                    "usr": "s:15DynamicSwiftKit5DSTabV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITabBarController",
+                "printedName": "UIKit.UITabBarController",
+                "usr": "c:objc(cs)UITabBarController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSTabBarStyle",
+                "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit8DSTabBarC4tabs03tabE10Controller5styleACSayAA0D0VG_So05UITabeH0CAA0dE5StyleOtcfc",
+            "mangledName": "$s15DynamicSwiftKit8DSTabBarC4tabs03tabE10Controller5styleACSayAA0D0VG_So05UITabeH0CAA0dE5StyleOtcfc",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "hitTest",
             "printedName": "hitTest(_:with:)",
@@ -4049,6 +4892,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DSTabBarProtocol",
+            "printedName": "DSTabBarProtocol",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4264,6 +5114,372 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "DSButtonStyle",
+        "printedName": "DSButtonStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaults",
+            "printedName": "defaults",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO8defaultsyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO8defaultsyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lineLoading",
+            "printedName": "lineLoading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO11lineLoadingyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO11lineLoadingyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dotLoading",
+            "printedName": "dotLoading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO10dotLoadingyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO10dotLoadingyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "roundLoading",
+            "printedName": "roundLoading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO12roundLoadingyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO12roundLoadingyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gradient",
+            "printedName": "gradient",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO8gradientyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO8gradientyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multipleShare",
+            "printedName": "multipleShare",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSButtonStyle.Type) -> DynamicSwiftKit.DSButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonStyle",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle",
+                    "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSButtonStyle",
+                        "printedName": "DynamicSwiftKit.DSButtonStyle",
+                        "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO13multipleShareyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO13multipleShareyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSButtonStyle",
+                "printedName": "DynamicSwiftKit.DSButtonStyle",
+                "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSButtonStyle",
+                "printedName": "DynamicSwiftKit.DSButtonStyle",
+                "usr": "s:15DynamicSwiftKit13DSButtonStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "DynamicSwiftKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO9hashValueSivp",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO9hashValueSivp",
+            "moduleName": "DynamicSwiftKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit13DSButtonStyleO9hashValueSivg",
+                "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO9hashValueSivg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit13DSButtonStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "DynamicSwiftKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15DynamicSwiftKit13DSButtonStyleO",
+        "mangledName": "$s15DynamicSwiftKit13DSButtonStyleO",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -4284,6 +5500,532 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "DSTabBarStyle",
+        "printedName": "DSTabBarStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaults",
+            "printedName": "defaults",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO8defaultsyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO8defaultsyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "topLined",
+            "printedName": "topLined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO8topLinedyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO8topLinedyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO10backgroundyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO10backgroundyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curvedUp",
+            "printedName": "curvedUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO8curvedUpyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO8curvedUpyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curvedDown",
+            "printedName": "curvedDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO10curvedDownyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO10curvedDownyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stableCurvedDown",
+            "printedName": "stableCurvedDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO16stableCurvedDownyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO16stableCurvedDownyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curvedCenterAction",
+            "printedName": "curvedCenterAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO18curvedCenterActionyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO18curvedCenterActionyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "curvedTripleAction",
+            "printedName": "curvedTripleAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO18curvedTripleActionyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO18curvedTripleActionyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dotInCurved",
+            "printedName": "dotInCurved",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO11dotInCurvedyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO11dotInCurvedyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "circle",
+            "printedName": "circle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DynamicSwiftKit.DSTabBarStyle.Type) -> DynamicSwiftKit.DSTabBarStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabBarStyle",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                    "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DynamicSwiftKit.DSTabBarStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabBarStyle",
+                        "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO6circleyA2CmF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO6circleyA2CmF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSTabBarStyle",
+                "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DSTabBarStyle",
+                "printedName": "DynamicSwiftKit.DSTabBarStyle",
+                "usr": "s:15DynamicSwiftKit13DSTabBarStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "DynamicSwiftKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO9hashValueSivp",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO9hashValueSivp",
+            "moduleName": "DynamicSwiftKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit13DSTabBarStyleO9hashValueSivg",
+                "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO9hashValueSivg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit13DSTabBarStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "DynamicSwiftKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15DynamicSwiftKit13DSTabBarStyleO",
+        "mangledName": "$s15DynamicSwiftKit13DSTabBarStyleO",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -4291,6 +6033,340 @@
         "moduleName": "DynamicSwiftKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DSTab",
+        "printedName": "DSTab",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvp",
+            "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvg",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvs",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvM",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedIcon",
+            "printedName": "selectedIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvs",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvM",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvp",
+            "mangledName": "$s15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvg",
+                "mangledName": "$s15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15DynamicSwiftKit5DSTabV",
+        "mangledName": "$s15DynamicSwiftKit5DSTabV",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -4364,43 +6440,1199 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "DSTabBarProtocol",
+        "printedName": "DSTabBarProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tabBarBackgroundColor",
+            "printedName": "tabBarBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE15BackgroundColorSo7UIColorCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabBarIndicatorColor",
+            "printedName": "tabBarIndicatorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE14IndicatorColorSo7UIColorCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabBarSelectedTabColor",
+            "printedName": "tabBarSelectedTabColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE16SelectedTabColorSo7UIColorCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabBarTintColor",
+            "printedName": "tabBarTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE9TintColorSo7UIColorCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabBarCornerRadius",
+            "printedName": "tabBarCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP03tabE12CornerRadius12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP6height14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP6height12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP6height14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP6height12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP6height14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP6height12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP6height14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP6height12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP5width14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP5width12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP5width14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP5width12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP5width14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP5width12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP5width14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP5width12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedTabIndex",
+            "printedName": "selectedTabIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP16selectedTabIndexSiSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tripleActions",
+            "printedName": "tripleActions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DynamicSwiftKit.DSTabAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabAction",
+                    "printedName": "DynamicSwiftKit.DSTabAction",
+                    "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DynamicSwiftKit.DSTabAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabAction",
+                        "printedName": "DynamicSwiftKit.DSTabAction",
+                        "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DynamicSwiftKit.DSTabAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabAction",
+                        "printedName": "DynamicSwiftKit.DSTabAction",
+                        "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP13tripleActionsSayAA0D6ActionVGvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "centerAction",
+            "printedName": "centerAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DynamicSwiftKit.DSTabAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSTabAction",
+                    "printedName": "DynamicSwiftKit.DSTabAction",
+                    "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvp",
+            "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DynamicSwiftKit.DSTabAction?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabAction",
+                        "printedName": "DynamicSwiftKit.DSTabAction",
+                        "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvg",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DynamicSwiftKit.DSTabAction?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSTabAction",
+                        "printedName": "DynamicSwiftKit.DSTabAction",
+                        "usr": "s:15DynamicSwiftKit11DSTabActionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvs",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvM",
+                "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP12centerActionAA0dH0VSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : DynamicSwiftKit.DSTabBarProtocol>",
+                "sugared_genericSig": "<Self where Self : DynamicSwiftKit.DSTabBarProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15DynamicSwiftKit16DSTabBarProtocolP",
+        "mangledName": "$s15DynamicSwiftKit16DSTabBarProtocolP",
         "moduleName": "DynamicSwiftKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DynamicSwiftKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DynamicSwiftKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DynamicSwiftKit",
-        "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -8162,126 +11394,126 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 5375,
+      "offset": 5382,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6008,
+      "offset": 6015,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6191,
+      "offset": 6198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6334,
+      "offset": 6341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "Array",
-      "offset": 6411,
+      "offset": 6418,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6577,
+      "offset": 6584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6689,
+      "offset": 6696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7113,
+      "offset": 7120,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "Array",
-      "offset": 7644,
+      "offset": 7651,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7846,
+      "offset": 7853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7983,
+      "offset": 7990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8177,
+      "offset": 8184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "Array",
-      "offset": 8354,
+      "offset": 8361,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8557,
+      "offset": 8564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8854,
+      "offset": 8861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9059,
+      "offset": 9066,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9724,
+      "offset": 9731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9937,
+      "offset": 9944,
       "length": 5,
       "value": "false"
     },
@@ -11515,98 +14747,98 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4034,
+      "offset": 4041,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4053,
+      "offset": 4060,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "StringLiteral",
-      "offset": 4056,
+      "offset": 4063,
       "length": 47,
       "value": "\"The number of tabs should be between 2 and 5.\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 4411,
+      "offset": 4418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 4475,
+      "offset": 4482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5365,
+      "offset": 5372,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5384,
+      "offset": 5391,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 5394,
       "length": 51,
       "value": "\"The number of tabs for this style must be 3 or 5.\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5645,
+      "offset": 5652,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5664,
+      "offset": 5671,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "StringLiteral",
-      "offset": 5667,
+      "offset": 5674,
       "length": 46,
       "value": "\"The number of tabs for this style must be 4.\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5916,
+      "offset": 5923,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5935,
+      "offset": 5942,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftTabBar\/Defaults\/DSTabBar.swift",
       "kind": "StringLiteral",
-      "offset": 5938,
+      "offset": 5945,
       "length": 51,
       "value": "\"The number of tabs for this style must be 3 or 5.\""
     },

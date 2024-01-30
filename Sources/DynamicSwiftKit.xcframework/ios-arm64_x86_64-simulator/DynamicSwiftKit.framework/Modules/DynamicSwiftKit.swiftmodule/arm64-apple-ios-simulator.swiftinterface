@@ -79,6 +79,7 @@ import _SwiftConcurrencyShims
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) public init(style: DynamicSwiftKit.DSButtonStyle)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
@@ -94,6 +95,12 @@ public enum DSGradientStyle {
     get
   }
 }
+public struct DSSideMenuSubItem {
+  public var title: Swift.String?
+  public var selectedIcon: UIKit.UIImage?
+  public let icon: UIKit.UIImage?
+  public let action: (() -> Swift.Void)?
+}
 public enum DSSide {
   case left
   case right
@@ -104,8 +111,13 @@ public enum DSSide {
   }
 }
 public struct DSSideMenuItem {
+  public let icon: UIKit.UIImage?
+  public var selectedIcon: UIKit.UIImage?
+  public let title: Swift.String?
+  public let action: (() -> Swift.Void)?
+  public let subItems: [DynamicSwiftKit.DSSideMenuSubItem]?
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSTabBar : UIKit.UIView {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSTabBar : UIKit.UIView, DynamicSwiftKit.DSTabBarProtocol {
   @_Concurrency.MainActor(unsafe) public var tabBarBackgroundColor: UIKit.UIColor? {
     get
     set
@@ -147,10 +159,58 @@ public struct DSSideMenuItem {
     set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public init(tabs: [DynamicSwiftKit.DSTab], tabBarController: UIKit.UITabBarController, style: DynamicSwiftKit.DSTabBarStyle)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
   @objc deinit
 }
 public struct DSTabAction {
+}
+public enum DSButtonStyle {
+  case defaults
+  case lineLoading
+  case dotLoading
+  case roundLoading
+  case gradient
+  case multipleShare
+  public static func == (a: DynamicSwiftKit.DSButtonStyle, b: DynamicSwiftKit.DSButtonStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DSTabBarStyle {
+  case defaults
+  case topLined
+  case background
+  case curvedUp
+  case curvedDown
+  case stableCurvedDown
+  case curvedCenterAction
+  case curvedTripleAction
+  case dotInCurved
+  case circle
+  public static func == (a: DynamicSwiftKit.DSTabBarStyle, b: DynamicSwiftKit.DSTabBarStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct DSTab {
+  public var title: Swift.String?
+  public var selectedIcon: UIKit.UIImage?
+  public let icon: UIKit.UIImage?
+}
+public protocol DSTabBarProtocol : AnyObject {
+  var tabBarBackgroundColor: UIKit.UIColor? { get set }
+  var tabBarIndicatorColor: UIKit.UIColor? { get set }
+  var tabBarSelectedTabColor: UIKit.UIColor? { get set }
+  var tabBarTintColor: UIKit.UIColor? { get set }
+  var tabBarCornerRadius: CoreFoundation.CGFloat? { get set }
+  var height: CoreFoundation.CGFloat? { get set }
+  var width: CoreFoundation.CGFloat? { get set }
+  var selectedTabIndex: Swift.Int? { get set }
+  var tripleActions: [DynamicSwiftKit.DSTabAction] { get set }
+  var centerAction: DynamicSwiftKit.DSTabAction? { get set }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSSideMenu : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var sideMenuBackgroundColor: UIKit.UIColor? {
@@ -282,5 +342,9 @@ extension DynamicSwiftKit.DSGradientStyle : Swift.Equatable {}
 extension DynamicSwiftKit.DSGradientStyle : Swift.Hashable {}
 extension DynamicSwiftKit.DSSide : Swift.Equatable {}
 extension DynamicSwiftKit.DSSide : Swift.Hashable {}
+extension DynamicSwiftKit.DSButtonStyle : Swift.Equatable {}
+extension DynamicSwiftKit.DSButtonStyle : Swift.Hashable {}
+extension DynamicSwiftKit.DSTabBarStyle : Swift.Equatable {}
+extension DynamicSwiftKit.DSTabBarStyle : Swift.Hashable {}
 extension DynamicSwiftKit.DSSideMenuStyle : Swift.Equatable {}
 extension DynamicSwiftKit.DSSideMenuStyle : Swift.Hashable {}
