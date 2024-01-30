@@ -9853,6 +9853,28 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "openMenu",
+            "printedName": "openMenu()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DynamicSwiftKit@objc(cs)DSSideMenu(im)openMenu",
+            "mangledName": "$s15DynamicSwiftKit10DSSideMenuC04openE0yyF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(items:mainController:style:)",
@@ -19224,14 +19246,14 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 7455,
+      "offset": 7453,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 8308,
+      "offset": 8306,
       "length": 5,
       "value": "false"
     },

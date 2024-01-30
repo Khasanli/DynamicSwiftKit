@@ -318,6 +318,7 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
 @interface DSSideMenu : UIViewController
+- (void)openMenu;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
