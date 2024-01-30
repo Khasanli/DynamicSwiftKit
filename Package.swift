@@ -6,12 +6,11 @@ import PackageDescription
 let package = Package(
     name: "DynamicSwiftKit",
     products: [
-        .library(
-            name: "DynamicSwiftKit",
-            targets: ["DynamicSwiftKit"]),
+        .library(name: "DynamicSwiftKit", targets: ["DynamicSwiftKit"])
+    ],
+    dependencies: [
     ],
     targets: [
-        .target(
-            name: "DynamicSwiftKit"),
+        .binaryTarget(name: "DynamicSwiftKit", path: "./Sources/DynamicSwiftKit.xcframework"),
     ]
 )

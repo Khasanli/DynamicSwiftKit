@@ -1,0 +1,286 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DynamicSwiftKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DynamicSwiftKit
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSButton : UIKit.UIButton {
+  public enum DSImageSide {
+    case left, right, none
+    public static func == (a: DynamicSwiftKit.DSButton.DSImageSide, b: DynamicSwiftKit.DSButton.DSImageSide) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var imageSide: DynamicSwiftKit.DSButton.DSImageSide {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var imageHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var titleText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var image: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var indicatorColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var leftGradientColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var rightGradientColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var gradientStyle: DynamicSwiftKit.DSGradientStyle? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var loadingText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var resultText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var font: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var result: Swift.Bool? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var timeout: Foundation.TimeInterval? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public enum DSGradientStyle {
+  case none
+  case topToDown
+  case leftToRight
+  case topLeftToRightBottom
+  case topRightToLeftBottom
+  public static func == (a: DynamicSwiftKit.DSGradientStyle, b: DynamicSwiftKit.DSGradientStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DSSide {
+  case left
+  case right
+  public static func == (a: DynamicSwiftKit.DSSide, b: DynamicSwiftKit.DSSide) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct DSSideMenuItem {
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSTabBar : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var tabBarBackgroundColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var tabBarIndicatorColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var tabBarSelectedTabColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var tabBarTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var tabBarCornerRadius: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var height: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var width: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var selectedTabIndex: Swift.Int? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var tripleActions: [DynamicSwiftKit.DSTabAction] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var centerAction: DynamicSwiftKit.DSTabAction? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc deinit
+}
+public struct DSTabAction {
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSSideMenu : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var sideMenuBackgroundColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var sideMenuTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var itemTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var subItemTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var itemIndicatorColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var subItemIndicatorColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var selectedItemTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var selectedSubItemTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var logoTintColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var titleTextColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var topLogo: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var topTitle: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var topTitleFont: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var topHeight: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var itemFont: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var subItemFont: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var indicatorCornerRadius: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var topLogoCornerRadius: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var width: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var side: DynamicSwiftKit.DSSide? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var isOverlayed: Swift.Bool? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var blurred: Swift.Bool? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var hideCloseButton: Swift.Bool? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var leftGradientColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var rightGradientColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var gradientStyle: DynamicSwiftKit.DSGradientStyle? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public init(items: [DynamicSwiftKit.DSSideMenuItem], mainController: UIKit.UIViewController, style: DynamicSwiftKit.DSSideMenuStyle = .defaults)
+  @objc deinit
+}
+public enum DSSideMenuStyle {
+  case defaults
+  case parallax
+  case curveSelected
+  case curveBottom
+  case collapsable
+  case submenu
+  case topMenu
+  case topMenuWithLine
+  case minimizable
+  public static func == (a: DynamicSwiftKit.DSSideMenuStyle, b: DynamicSwiftKit.DSSideMenuStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DynamicSwiftKit.DSButton.DSImageSide : Swift.Equatable {}
+extension DynamicSwiftKit.DSButton.DSImageSide : Swift.Hashable {}
+extension DynamicSwiftKit.DSGradientStyle : Swift.Equatable {}
+extension DynamicSwiftKit.DSGradientStyle : Swift.Hashable {}
+extension DynamicSwiftKit.DSSide : Swift.Equatable {}
+extension DynamicSwiftKit.DSSide : Swift.Hashable {}
+extension DynamicSwiftKit.DSSideMenuStyle : Swift.Equatable {}
+extension DynamicSwiftKit.DSSideMenuStyle : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module DynamicSwiftKit {
+  umbrella header "DynamicSwiftKit.h"
+  export *
+
+  module * { export * }
+}
+
+module DynamicSwiftKit.Swift {
+  header "DynamicSwiftKit-Swift.h"
+  requires objc
+}
