@@ -96,10 +96,7 @@ public enum DSGradientStyle {
   }
 }
 public struct DSSideMenuSubItem {
-  public var title: Swift.String?
-  public var selectedIcon: UIKit.UIImage?
-  public let icon: UIKit.UIImage?
-  public let action: (() -> Swift.Void)?
+  public init(title: Swift.String? = nil, selectedIcon: UIKit.UIImage? = nil, icon: UIKit.UIImage?, action: (() -> Swift.Void)?)
 }
 public enum DSSide {
   case left
@@ -111,11 +108,7 @@ public enum DSSide {
   }
 }
 public struct DSSideMenuItem {
-  public let icon: UIKit.UIImage?
-  public var selectedIcon: UIKit.UIImage?
-  public let title: Swift.String?
-  public let action: (() -> Swift.Void)?
-  public let subItems: [DynamicSwiftKit.DSSideMenuSubItem]?
+  public init(icon: UIKit.UIImage?, selectedIcon: UIKit.UIImage? = nil, title: Swift.String?, action: (() -> Swift.Void)?, subItems: [DynamicSwiftKit.DSSideMenuSubItem]?)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DSTabBar : UIKit.UIView, DynamicSwiftKit.DSTabBarProtocol {
   @_Concurrency.MainActor(unsafe) public var tabBarBackgroundColor: UIKit.UIColor? {
@@ -164,6 +157,7 @@ public struct DSSideMenuItem {
   @objc deinit
 }
 public struct DSTabAction {
+  public init(icon: UIKit.UIImage, action: (() -> Swift.Void)?)
 }
 public enum DSButtonStyle {
   case defaults
@@ -196,9 +190,7 @@ public enum DSTabBarStyle {
   }
 }
 public struct DSTab {
-  public var title: Swift.String?
-  public var selectedIcon: UIKit.UIImage?
-  public let icon: UIKit.UIImage?
+  public init(title: Swift.String? = nil, selectedIcon: UIKit.UIImage? = nil, icon: UIKit.UIImage?)
 }
 public protocol DSTabBarProtocol : AnyObject {
   var tabBarBackgroundColor: UIKit.UIColor? { get set }

@@ -2535,10 +2535,16 @@
         "printedName": "DSSideMenuSubItem",
         "children": [
           {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:selectedIcon:icon:action:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSSideMenuSubItem",
+                "printedName": "DynamicSwiftKit.DSSideMenuSubItem",
+                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -2551,104 +2557,24 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvp",
-            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvg",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
               },
               {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvs",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvs",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "set"
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvM",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5titleSSSgvM",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selectedIcon",
-            "printedName": "selectedIcon",
-            "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -2662,163 +2588,7 @@
                   }
                 ],
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
               },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvs",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvs",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvM",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV12selectedIconSo7UIImageCSgvM",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icon",
-            "printedName": "icon",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV4iconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "action",
-            "printedName": "action",
-            "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -2845,56 +2615,14 @@
                 "usr": "s:Sq"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvp",
-            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvp",
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV5title12selectedIcon4icon6actionACSSSg_So7UIImageCSgAKyycSgtcfc",
+            "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV5title12selectedIcon4icon6actionACSSSg_So7UIImageCSgAKyycSgtcfc",
             "moduleName": "DynamicSwiftKit",
             "declAttributes": [
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvg",
-                "mangledName": "$s15DynamicSwiftKit17DSSideMenuSubItemV6actionyycSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -3161,10 +2889,16 @@
         "printedName": "DSSideMenuItem",
         "children": [
           {
-            "kind": "Var",
-            "name": "icon",
-            "printedName": "icon",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(icon:selectedIcon:title:action:subItems:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSSideMenuItem",
+                "printedName": "DynamicSwiftKit.DSSideMenuItem",
+                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3178,53 +2912,7 @@
                   }
                 ],
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV4iconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selectedIcon",
-            "printedName": "selectedIcon",
-            "children": [
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3237,104 +2925,9 @@
                     "usr": "c:objc(cs)UIImage"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
               },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvs",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvs",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvM",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV12selectedIconSo7UIImageCSgvM",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3348,53 +2941,7 @@
                   }
                 ],
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvp",
-            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvg",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV5titleSSSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "action",
-            "printedName": "action",
-            "children": [
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3419,64 +2966,7 @@
                   }
                 ],
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvp",
-            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvg",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV6actionyycSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "subItems",
-            "printedName": "subItems",
-            "children": [
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -3500,53 +2990,14 @@
                 "usr": "s:Sq"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvp",
-            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvp",
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit14DSSideMenuItemV4icon12selectedIcon5title6action8subItemsACSo7UIImageCSg_AKSSSgyycSgSayAA0de3SubF0VGSgtcfc",
+            "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV4icon12selectedIcon5title6action8subItemsACSo7UIImageCSg_AKSSSgyycSgSayAA0de3SubF0VGSgtcfc",
             "moduleName": "DynamicSwiftKit",
             "declAttributes": [
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[DynamicSwiftKit.DSSideMenuSubItem]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSSideMenuSubItem",
-                            "printedName": "DynamicSwiftKit.DSSideMenuSubItem",
-                            "usr": "s:15DynamicSwiftKit17DSSideMenuSubItemV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvg",
-                "mangledName": "$s15DynamicSwiftKit14DSSideMenuItemV8subItemsSayAA0de3SubF0VGSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -5065,6 +4516,60 @@
         "kind": "TypeDecl",
         "name": "DSTabAction",
         "printedName": "DSTabAction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(icon:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSTabAction",
+                "printedName": "DynamicSwiftKit.DSTabAction",
+                "usr": "s:15DynamicSwiftKit11DSTabActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit11DSTabActionV4icon6actionACSo7UIImageC_yycSgtcfc",
+            "mangledName": "$s15DynamicSwiftKit11DSTabActionV4icon6actionACSo7UIImageC_yycSgtcfc",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:15DynamicSwiftKit11DSTabActionV",
         "mangledName": "$s15DynamicSwiftKit11DSTabActionV",
@@ -6081,10 +5586,16 @@
         "printedName": "DSTab",
         "children": [
           {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:selectedIcon:icon:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSTab",
+                "printedName": "DynamicSwiftKit.DSTab",
+                "usr": "s:15DynamicSwiftKit5DSTabV"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -6097,104 +5608,24 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvp",
-            "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvg",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
               },
               {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvs",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvs",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "set"
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV5titleSSSgvM",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV5titleSSSgvM",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selectedIcon",
-            "printedName": "selectedIcon",
-            "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -6210,155 +5641,14 @@
                 "usr": "s:Sq"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvp",
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit5DSTabV5title12selectedIcon4iconACSSSg_So7UIImageCSgAJtcfc",
+            "mangledName": "$s15DynamicSwiftKit5DSTabV5title12selectedIcon4iconACSSSg_So7UIImageCSgAJtcfc",
             "moduleName": "DynamicSwiftKit",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvs",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvs",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvM",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV12selectedIconSo7UIImageCSgvM",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icon",
-            "printedName": "icon",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvp",
-            "mangledName": "$s15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvp",
-            "moduleName": "DynamicSwiftKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvg",
-                "mangledName": "$s15DynamicSwiftKit5DSTabV4iconSo7UIImageCSgvg",
-                "moduleName": "DynamicSwiftKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
