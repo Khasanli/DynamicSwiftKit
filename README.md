@@ -1,4 +1,4 @@
-
+//
 class ExampleTabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
@@ -8,17 +8,17 @@ class ExampleTabBarViewController: UITabBarController {
     }
     
     private func setView() {
-        let example = ExampleViewController()
-        example.view.backgroundColor = .orange.withAlphaComponent(0.6)
-
         let home = UIViewController()
         home.view.backgroundColor = .yellow.withAlphaComponent(0.6)
 
-        let search = UIViewController()
-        search.view.backgroundColor = .cyan.withAlphaComponent(0.6)
-
+        let heart = UIViewController()
+        heart.view.backgroundColor = .orange.withAlphaComponent(0.6)
+        
         let person = UIViewController()
         person.view.backgroundColor = .orange.withAlphaComponent(0.6)
+
+        let search = UIViewController()
+        search.view.backgroundColor = .cyan.withAlphaComponent(0.6)
 
         viewControllers = [example, home, search, person]
 
@@ -26,12 +26,16 @@ class ExampleTabBarViewController: UITabBarController {
                     LibTab(icon: UIImage(systemName: "heart.fill")),
                     LibTab(icon: UIImage(systemName: "person.fill")),
                     LibTab(icon: UIImage(systemName: "gearshape.fill"))]
+                    
         let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
         tabbar.height = 60
         tabbar.tabBarBackgroundColor = .white
         tabbar.tabBarCornerRadius = 30
     }
 }
+
+
+//
 
 class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
 
