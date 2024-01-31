@@ -62,8 +62,8 @@ class ExampleTabBarViewController: UITabBarController {
 }
 ```
 ```markdown
-![Sample Image](https://media.licdn.com/dms/image/D4E22AQFlpIX1RfbgQQ/feedshare-shrink_1280/0/1695103240394?e=1709769600&v=beta&t=TaccCepKZ9LIx4vS-_uKt1uLTKoYoBcOX3BAzB7miWc.gif)
 
+![1695103240394](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/9b9c2524-edeb-4f5c-8c5a-b2850ad341d0)
 
 
 ## Contributing
