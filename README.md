@@ -21,6 +21,7 @@ Brief description of your project.
 ```swift    
         let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
 ```
+![curveSelected](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/65853548-7bb7-42a8-bcf1-db9eb64adc2d)
 
 ## Dynamic Side menus
 ```swift    
