@@ -1,4 +1,3 @@
-//
 # Dynamic Swift Kit
 
 ## Table of Contents
@@ -61,9 +60,7 @@ class ExampleTabBarViewController: UITabBarController {
     }
 }
 ```
-```markdown
-
-![1695103240394](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/9b9c2524-edeb-4f5c-8c5a-b2850ad341d0)
+![1695103240394](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/f852b3f0-321b-4200-baad-064e188ba334)
 
 
 ## Contributing
