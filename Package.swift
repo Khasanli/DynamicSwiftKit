@@ -11,6 +11,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "DynamicSwiftKit", path: "./Sources/DynamicSwiftKit.xcframework"),
+        .binaryTarget(name: "DynamicSwiftKit", path: "./Sources/DynamicSwiftKit.xcframework")
     ]
 )

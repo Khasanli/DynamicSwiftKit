@@ -1,10 +1,3 @@
-//
-//  DynamicSwiftKit.podspec
-//  DynamicSwiftKit
-//
-//  Created by Khayala Hasanli on 31.01.24.
-//
-
 Pod::Spec.new do |s|
     s.name         = "DynamicSwiftKit"
     s.version      = "1.0.0"
