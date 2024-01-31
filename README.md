@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Dynamic Swift Kit is a versatile and user-friendly framework framework developed using Swift and UIKit, designed to enhance and streamline the development of iOS applications. This Swift-based toolkit simplifies the process of creating dynamic and visually appealing user interfaces. With Dynamic Swift Kit, developers can easily implement customizable UI components such as tab bars, side menus, and buttons. Whether you're building a simple app or a complex interface, this framework provides a range of adaptable and easy-to-use components that cater to various design needs. Dynamic Swift Kit is perfect for Swift developers looking to add a touch of sophistication and interactivity to their iOS applications without compromising on performance or usability.
+Dynamic Swift Kit is a versatile and user-friendly framework developed using Swift and UIKit, designed to enhance and streamline the development of iOS applications. This Swift-based toolkit simplifies the process of creating dynamic and visually appealing user interfaces. With Dynamic Swift Kit, developers can easily implement customizable UI components such as tab bars, side menus, and buttons. Whether you're building a simple app or a complex interface, this framework provides a range of adaptable and easy-to-use components that cater to various design needs. Dynamic Swift Kit is perfect for Swift developers looking to add a touch of sophistication and interactivity to their iOS applications without compromising on performance or usability.
 
 ## Features
 
@@ -46,7 +46,74 @@ let button = DSButton(style: .dotLoading)
 ![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/3a394743-fa1f-4886-a536-e13f8cd3169e)
 
 ## Installation
-Instructions for installing the project.
+Dynamic Swift Kit can be installed using CocoaPods or Swift Package Manager (SPM). Below are the instructions for each method:
+
+# Using Swift Package Manager (SPM)
+
+Open Your Project in Xcode
+
+Go to File > Swift Packages > Add Package Dependency....
+
+Enter the URL of the Dynamic Swift Kit repository. It will typically look like this:
+
+```    
+https://github.com/Khasanli/DynamicSwiftKit.git
+```
+
+Select the version range or a specific version you want to use, then click Next.
+
+Choose the target in your project where you want to use Dynamic Swift Kit.
+
+Click Finish. Xcode will download and integrate the package into your project.
+
+Now you can import Dynamic Swift Kit in your Swift files where you want to use it:
+
+```swift
+import DynamicSwiftKit
+```
+
+# Using CocoaPods
+
+If you haven't already installed CocoaPods, you can do so by running the following command in your terminal:
+
+```
+sudo gem install cocoapods
+```
+
+Navigate to your project directory in the terminal and create a new Podfile by running:
+
+```
+pod init
+```
+
+Open the newly created Podfile in your favorite text editor and add the following line under your target:
+
+```
+pod 'DynamicSwiftKit'
+```
+
+Your Podfile should look something like this:
+
+```
+target 'YourAppTarget' do
+  use_frameworks!
+  pod 'DynamicSwiftKit'
+end
+```
+
+Install the Pod: Save your Podfile and run the following command in the terminal to install Dynamic Swift Kit:
+
+```
+pod install
+```
+
+Open the Workspace: After installation, make sure to open your project using the .xcworkspace file, not the .xcodeproj file, to ensure that the CocoaPods dependencies are correctly integrated.
+
+Now you can import DynamicSwiftKit in your Swift files where you want to use it:
+
+```
+import DynamicSwiftKit
+```
 
 ## Usage
 How to use the project after installation.
