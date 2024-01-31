@@ -300,6 +300,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class UIColor;
+@class NSString;
+@class UIImage;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
@@ -307,13 +309,14 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 /// The background color of the button. Setting this property changes the button’s background color. Special handling is provided for buttons with a roundLoading style, where the background color is set to clear.
 @property (nonatomic, strong) UIColor * _Nullable backgroundColor;
 @property (nonatomic, strong) UIColor * _Null_unspecified tintColor;
+- (void)setTitle:(NSString * _Nullable)title forState:(UIControlState)state;
 - (void)setTitleColor:(UIColor * _Nullable)color forState:(UIControlState)state;
+- (void)setImage:(UIImage * _Nullable)image forState:(UIControlState)state;
 - (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class NSString;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")

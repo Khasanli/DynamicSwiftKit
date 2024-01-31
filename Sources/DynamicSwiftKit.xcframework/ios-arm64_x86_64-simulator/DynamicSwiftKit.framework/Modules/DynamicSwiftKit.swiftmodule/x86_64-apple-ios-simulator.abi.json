@@ -658,6 +658,118 @@
           },
           {
             "kind": "Var",
+            "name": "titleColor",
+            "printedName": "titleColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvp",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvp",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvg",
+                "mangledName": "$s15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvg",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvs",
+                "mangledName": "$s15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvs",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvM",
+                "mangledName": "$s15DynamicSwiftKit8DSButtonC10titleColorSo7UIColorCSgvM",
+                "moduleName": "DynamicSwiftKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "indicatorColor",
             "printedName": "indicatorColor",
             "children": [
@@ -1881,6 +1993,52 @@
           },
           {
             "kind": "Function",
+            "name": "setTitle",
+            "printedName": "setTitle(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DynamicSwiftKit@objc(cs)DSButton(im)setTitle:forState:",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC8setTitle_3forySSSg_So14UIControlStateVtF",
+            "moduleName": "DynamicSwiftKit",
+            "overriding": true,
+            "objc_name": "setTitle:forState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setTitleColor",
             "printedName": "setTitleColor(_:for:)",
             "children": [
@@ -1916,6 +2074,52 @@
             "moduleName": "DynamicSwiftKit",
             "overriding": true,
             "objc_name": "setTitleColor:forState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setImage",
+            "printedName": "setImage(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DynamicSwiftKit@objc(cs)DSButton(im)setImage:forState:",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC8setImage_3forySo7UIImageCSg_So14UIControlStateVtF",
+            "moduleName": "DynamicSwiftKit",
+            "overriding": true,
+            "objc_name": "setImage:forState:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -10741,119 +10945,119 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3741,
+      "offset": 3937,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 5457,
+      "offset": 5769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6090,
+      "offset": 6402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6273,
+      "offset": 6585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6416,
+      "offset": 6728,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "Array",
-      "offset": 6493,
+      "offset": 6805,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6659,
+      "offset": 6971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6771,
+      "offset": 7083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7195,
+      "offset": 7507,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7843,
+      "offset": 8155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7980,
+      "offset": 8292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8174,
+      "offset": 8486,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8467,
+      "offset": 8779,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8764,
+      "offset": 9076,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 8969,
+      "offset": 9281,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9648,
+      "offset": 9960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9870,
+      "offset": 10182,
       "length": 5,
       "value": "false"
     },
@@ -11336,182 +11540,182 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3137,
+      "offset": 3195,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3180,
+      "offset": 3238,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3293,
+      "offset": 3351,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3519,
+      "offset": 3577,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3598,
+      "offset": 3656,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3751,
+      "offset": 3809,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3964,
+      "offset": 4022,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 4027,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4054,
+      "offset": 4112,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4082,
+      "offset": 4140,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4122,
+      "offset": 4180,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4136,
+      "offset": 4194,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4158,
+      "offset": 4216,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4358,
+      "offset": 4416,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4452,
+      "offset": 4510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4493,
+      "offset": 4551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4536,
+      "offset": 4594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4695,
+      "offset": 4753,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 4866,
       "length": 11,
       "value": "\"strokeEnd\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4849,
+      "offset": 4907,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4880,
+      "offset": 4938,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4963,
+      "offset": 5021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5541,
+      "offset": 5599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5671,
+      "offset": 5729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5722,
+      "offset": 5780,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSRoundLoadingButton.swift",
       "kind": "StringLiteral",
-      "offset": 5939,
+      "offset": 5997,
       "length": 19,
       "value": "\"progressAnimation\""
     },
@@ -12120,133 +12324,133 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 940,
+      "offset": 1021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1155,
+      "offset": 1236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1309,
       "length": 8,
       "value": "\"colors\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1317,
+      "offset": 1398,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1528,
+      "offset": 1609,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "StringLiteral",
-      "offset": 1713,
+      "offset": 1794,
       "length": 13,
       "value": "\"colorChange\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 2034,
       "length": 13,
       "value": "\"colorChange\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "Array",
-      "offset": 2001,
+      "offset": 2082,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2029,
+      "offset": 2110,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2132,
+      "offset": 2213,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2191,
+      "offset": 2272,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2237,
+      "offset": 2318,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "StringLiteral",
-      "offset": 2328,
+      "offset": 2409,
       "length": 8,
       "value": "\"colors\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2417,
+      "offset": 2498,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2579,
+      "offset": 2660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2723,
       "length": 13,
       "value": "\"colorResult\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2723,
+      "offset": 2804,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2826,
+      "offset": 2907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSGradientButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2931,
+      "offset": 3012,
       "length": 4,
       "value": "true"
     },
@@ -15466,175 +15670,175 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1424,
+      "offset": 1473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1464,
+      "offset": 1513,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1665,
+      "offset": 1714,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1677,
+      "offset": 1726,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "Array",
-      "offset": 1691,
+      "offset": 1740,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1757,
+      "offset": 1806,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1986,
+      "offset": 2035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2383,
+      "offset": 2432,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2475,
+      "offset": 2524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2638,
+      "offset": 2687,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2646,
+      "offset": 2695,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2692,
+      "offset": 2741,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2700,
+      "offset": 2749,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2777,
+      "offset": 2826,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2785,
+      "offset": 2834,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2831,
+      "offset": 2880,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2839,
+      "offset": 2888,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2925,
+      "offset": 2974,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2933,
+      "offset": 2982,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2979,
+      "offset": 3028,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 2987,
+      "offset": 3036,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3073,
+      "offset": 3122,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3081,
+      "offset": 3130,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3127,
+      "offset": 3176,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDefaultButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3135,
+      "offset": 3184,
       "length": 3,
       "value": "1.0"
     },
@@ -15774,420 +15978,420 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5704,
-      "length": 2,
-      "value": "50"
+      "offset": 5724,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5777,
+      "offset": 5796,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5849,
+      "offset": 5868,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 6426,
+      "offset": 6445,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 6575,
+      "offset": 6594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 6622,
+      "offset": 6641,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 6749,
+      "offset": 6768,
       "length": 17,
       "value": "\"chevron.right.2\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 6829,
+      "offset": 6848,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 6963,
+      "offset": 6982,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7020,
+      "offset": 7039,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7088,
+      "offset": 7107,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7152,
+      "offset": 7171,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 7297,
+      "offset": 7316,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 7448,
+      "offset": 7467,
       "length": 16,
       "value": "\"chevron.left.2\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 7527,
+      "offset": 7546,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7695,
+      "offset": 7714,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7763,
+      "offset": 7782,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7826,
+      "offset": 7845,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 7970,
+      "offset": 7989,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 8027,
+      "offset": 8046,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 8254,
+      "offset": 8273,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 8299,
+      "offset": 8318,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 8340,
+      "offset": 8359,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 8416,
+      "offset": 8435,
       "length": 16,
       "value": "\"chevron.left.2\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 8456,
+      "offset": 8475,
       "length": 17,
       "value": "\"chevron.right.2\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 8532,
+      "offset": 8551,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 8698,
+      "offset": 8717,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 8703,
+      "offset": 8722,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 8770,
+      "offset": 8789,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 8775,
+      "offset": 8794,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 9225,
+      "offset": 9244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 9312,
+      "offset": 9331,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 9390,
+      "offset": 9409,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 9438,
+      "offset": 9457,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 9604,
+      "offset": 9623,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 9962,
+      "offset": 9981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 10099,
+      "offset": 10118,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10462,
+      "offset": 10481,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 10586,
+      "offset": 10605,
       "length": 12,
       "value": "\"position.y\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 10718,
+      "offset": 10737,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10803,
+      "offset": 10822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 10899,
+      "offset": 10918,
       "length": 12,
       "value": "\"position.y\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 11107,
+      "offset": 11126,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 11226,
+      "offset": 11245,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11751,
+      "offset": 11770,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 11802,
+      "offset": 11821,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11916,
+      "offset": 11935,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 11969,
+      "offset": 11988,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12073,
+      "offset": 12092,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 12111,
+      "offset": 12130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 12444,
+      "offset": 12463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12584,
+      "offset": 12603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13063,
+      "offset": 13082,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13133,
+      "offset": 13152,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13145,
+      "offset": 13164,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13765,
+      "offset": 13784,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13808,
+      "offset": 13827,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13948,
+      "offset": 13967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 14056,
+      "offset": 14075,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSMinimizableSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 14185,
+      "offset": 14204,
       "length": 1,
       "value": "2"
     },
@@ -16348,56 +16552,56 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "StringLiteral",
-      "offset": 2993,
+      "offset": 3068,
       "length": 15,
       "value": "\"jumpAnimation\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3131,
+      "offset": 3206,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3181,
+      "offset": 3256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 3408,
       "length": 12,
       "value": "\"position.y\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3449,
+      "offset": 3524,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3481,
+      "offset": 3556,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3597,
+      "offset": 3672,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSDotLoadingButton.swift",
       "kind": "StringLiteral",
-      "offset": 3744,
+      "offset": 3819,
       "length": 15,
       "value": "\"jumpAnimation\""
     },
@@ -17713,70 +17917,70 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4519,
+      "offset": 4577,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4651,
+      "offset": 4709,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4957,
+      "offset": 5015,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5034,
+      "offset": 5092,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5042,
+      "offset": 5100,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5106,
+      "offset": 5164,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5187,
+      "offset": 5245,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5193,
+      "offset": 5251,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5275,
+      "offset": 5333,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSMultipleShareButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5466,
+      "offset": 5524,
       "length": 1,
       "value": "0"
     },
@@ -19336,6 +19540,13 @@
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9737,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "StringLiteral",
       "offset": 122,
       "length": 10,
@@ -20016,91 +20227,91 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7535,
+      "offset": 7611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7568,
+      "offset": 7644,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7599,
+      "offset": 7675,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7633,
+      "offset": 7709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7679,
+      "offset": 7755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7711,
+      "offset": 7787,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7741,
+      "offset": 7817,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7774,
+      "offset": 7850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7820,
+      "offset": 7896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 7852,
+      "offset": 7928,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7882,
+      "offset": 7958,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 7915,
+      "offset": 7991,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Styles\/DSLineLoadingButton.swift",
       "kind": "FloatLiteral",
-      "offset": 8305,
+      "offset": 8381,
       "length": 5,
       "value": "180.0"
     },
