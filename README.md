@@ -9,21 +9,27 @@
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Code Examples](#code-examples)
-7. [Contributing](#contributing)
-8. [License](#license)
+7. [License](#license)
 
 ## Introduction
-Brief description of your project.
+
+Dynamic Swift Kit is a versatile and user-friendly framework framework developed using Swift and UIKit, designed to enhance and streamline the development of iOS applications. This Swift-based toolkit simplifies the process of creating dynamic and visually appealing user interfaces. With Dynamic Swift Kit, developers can easily implement customizable UI components such as tab bars, side menus, and buttons. Whether you're building a simple app or a complex interface, this framework provides a range of adaptable and easy-to-use components that cater to various design needs. Dynamic Swift Kit is perfect for Swift developers looking to add a touch of sophistication and interactivity to their iOS applications without compromising on performance or usability.
 
 ## Features
 
 ## Dynamic TabBars
+
+Dynamic TabBars in Dynamic Swift Kit offer a customizable approach to navigation in iOS apps. Developers can easily implement tab bars with various styles. They can be customized in terms of appearance, including colors, icons, and layout, to match the theme and design of your application.
+
 ```swift    
 let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
 ```
 ![curveSelected](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/65853548-7bb7-42a8-bcf1-db9eb64adc2d)
 
 ## Dynamic Side menus
+
+Dynamic Side Menus provide an elegant solution for organizing and accessing different sections of an app. These side menus are highly interactive and can be tailored to fit any app design. Developers can customize aspects such as background colors, menu items, icons, and animations, creating a unique user experience that aligns with the app's overall aesthetic.
+
 ```swift    
 let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
 ```
@@ -31,6 +37,8 @@ let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizabl
 
 
 ## Dynamic Buttons
+
+Dynamic Buttons in this toolkit offer versatility and creativity in user interaction. The buttons are customizable in terms of size, color, animation, and functionality, allowing developers to create buttons that not only look great but also enhance the overall user experience.
 
 ```swift    
 let button = DSButton(style: .dotLoading)
@@ -81,9 +89,10 @@ class ExampleTabBarViewController: UITabBarController {
 }
 ```
 
-## Contributing
-
 ## License
+
+DynamicSwiftKit is released under the MIT license.
+
 
 ```swift
 class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
