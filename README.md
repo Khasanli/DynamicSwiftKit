@@ -35,7 +35,7 @@ Brief description of your project.
 ```swift    
         let button = DSButton(style: .dotLoading)
 ```
-![dotLoading](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/a97e423e-ee7f-4f54-b490-d19f497b4294)
+![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/3a394743-fa1f-4886-a536-e13f8cd3169e)
 
 ## Installation
 Instructions for installing the project.
