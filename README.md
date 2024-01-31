@@ -26,7 +26,7 @@ Brief description of your project.
 ```swift    
         let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
 ```
-![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
+![Untitled design (1)](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/cda27b16-f147-4e28-a350-f80463633873)
 
 
 ## Dynamic Buttons
