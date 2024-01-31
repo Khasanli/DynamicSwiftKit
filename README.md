@@ -17,7 +17,7 @@ Dynamic Swift Kit is a versatile and user-friendly framework framework developed
 
 ## Features
 
-## Dynamic TabBars
+### Dynamic TabBars
 
 Dynamic TabBars in Dynamic Swift Kit offer a customizable approach to navigation in iOS apps. Developers can easily implement tab bars with various styles. They can be customized in terms of appearance, including colors, icons, and layout, to match the theme and design of your application.
 
@@ -26,7 +26,7 @@ let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
 ```
 ![curveSelected](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/65853548-7bb7-42a8-bcf1-db9eb64adc2d)
 
-## Dynamic Side menus
+### Dynamic Side menus
 
 Dynamic Side Menus provide an elegant solution for organizing and accessing different sections of an app. These side menus are highly interactive and can be tailored to fit any app design. Developers can customize aspects such as background colors, menu items, icons, and animations, creating a unique user experience that aligns with the app's overall aesthetic.
 
@@ -36,7 +36,7 @@ let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizabl
 ![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/219ae1a6-5d14-4c50-8c64-cd059c1d37b4)
 
 
-## Dynamic Buttons
+### Dynamic Buttons
 
 Dynamic Buttons in this toolkit offer versatility and creativity in user interaction. The buttons are customizable in terms of size, color, animation, and functionality, allowing developers to create buttons that not only look great but also enhance the overall user experience.
 
