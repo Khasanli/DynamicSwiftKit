@@ -25,7 +25,7 @@ Instructions for installing the project.
 How to use the project after installation.
 
 ## Code Examples
-'''Swift
+```swift
 class ExampleTabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
