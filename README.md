@@ -1,4 +1,31 @@
 //
+# Dynamic Swift Kit
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Code Examples](#code-examples)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Introduction
+Brief description of your project.
+
+## Features
+- Animated TabBars
+- Animated Side menus
+- Animated Buttons
+
+## Installation
+Instructions for installing the project.
+
+## Usage
+How to use the project after installation.
+
+## Code Examples
+'''Swift
 class ExampleTabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
@@ -34,6 +61,10 @@ class ExampleTabBarViewController: UITabBarController {
     }
 }
 
+
+## Contributing
+
+## License
 
 //
 
