@@ -76,7 +76,7 @@ import DynamicSwiftKit
 
 ## Code Examples
 
-###Dynamic TabBar Examples
+### Dynamic TabBar Examples
 
 ```swift
 class ExampleTabBarViewController: UITabBarController {
@@ -180,6 +180,8 @@ tabbar.tabBarIndicatorColor = .systemPink
 tabbar.tabBarSelectedTabColor = .darkGray
 tabbar.tabBarTintColor = .darkGray
 ```
+
+### Dynamic Side Menu Examples
 
 ## License
 
