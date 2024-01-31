@@ -4,12 +4,14 @@
 1. [Introduction](#introduction)
 2. [Features](#features)
     - [Dynamic TabBars](#dynamic-tabbars)
-    - [Dynamic Side menus](#dynamic-side-menus)
+    - [Dynamic Side Menus](#dynamic-side-menus)
     - [Dynamic Buttons](#dynamic-buttons)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Code Examples](#code-examples)
-7. [License](#license)
+5. [Code Examples](#code-examples)
+    - [Dynamic TabBar Examples](#dynamic-tabbar-examples)
+    - [Dynamic Side Menu Examples](#dynamic-side-menu-examples)
+    - [Dynamic Button Examples](#dynamic-button-examples)
+6. [License](#license)
 
 ## Introduction
 
@@ -72,53 +74,10 @@ Now you can import Dynamic Swift Kit in your Swift files where you want to use i
 import DynamicSwiftKit
 ```
 
-# Using CocoaPods
-
-If you haven't already installed CocoaPods, you can do so by running the following command in your terminal:
-
-```
-sudo gem install cocoapods
-```
-
-Navigate to your project directory in the terminal and create a new Podfile by running:
-
-```
-pod init
-```
-
-Open the newly created Podfile in your favorite text editor and add the following line under your target:
-
-```
-pod 'DynamicSwiftKit'
-```
-
-Your Podfile should look something like this:
-
-```
-target 'YourAppTarget' do
-  use_frameworks!
-  pod 'DynamicSwiftKit'
-end
-```
-
-Install the Pod: Save your Podfile and run the following command in the terminal to install Dynamic Swift Kit:
-
-```
-pod install
-```
-
-Open the Workspace: After installation, make sure to open your project using the .xcworkspace file, not the .xcodeproj file, to ensure that the CocoaPods dependencies are correctly integrated.
-
-Now you can import DynamicSwiftKit in your Swift files where you want to use it:
-
-```
-import DynamicSwiftKit
-```
-
-## Usage
-How to use the project after installation.
-
 ## Code Examples
+
+###Dynamic TabBar Examples
+
 ```swift
 class ExampleTabBarViewController: UITabBarController {
     
@@ -143,17 +102,70 @@ class ExampleTabBarViewController: UITabBarController {
 
         viewControllers = [example, home, search, person]
 
-        let tabs = [LibTab(icon: UIImage(systemName: "house.fill")),
-                    LibTab(icon: UIImage(systemName: "heart.fill")),
-                    LibTab(icon: UIImage(systemName: "person.fill")),
-                    LibTab(icon: UIImage(systemName: "gearshape.fill"))]
+        let tabs = [DSTab(icon: UIImage(systemName: "house.fill")),
+                    DSTab(icon: UIImage(systemName: "heart.fill")),
+                    DSTab(icon: UIImage(systemName: "person.fill")),
+                    DSTab(icon: UIImage(systemName: "gearshape.fill"))]
                     
-        let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
+        let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .circle)
         tabbar.height = 60
         tabbar.tabBarBackgroundColor = .white
         tabbar.tabBarCornerRadius = 30
     }
 }
+```
+
+The DSTabBar offers various styles to customize the appearance and behavior of the tab bar. Here are some of the available styles:
+
+```swift
+
+// Background
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .background)
+
+// Curved up
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .curvedUp)
+        
+// Curved down
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .curvedDown)
+        
+// Dot in curve
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .dotInCurved)
+        
+// Stable curved down
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .stableCurvedDown)
+        
+// Top lined
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .topLined)
+
+```
+
+For the style with a special action button in the center of the tab bar, you have to add a center action.
+Example Initialization:
+
+```swift
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .curvedCenterAction)
+// Set the center action
+tabbar.centerAction = DSTabAction(icon: UIImage(systemName: "plus.circle.fill")) {
+    // Handle the center action here
+}
+```
+
+For the style with three action buttons, you have to set the tripleAction property of tabBar.
+
+```swift
+let tabbar = DSTabBar(tabs: tabs, tabBarController: self, style: .curvedTripleAction)
+
+tabbar.tripleActions = [
+    DSTabAction(icon: UIImage(systemName: "camera.fill")) {
+        // Handle the camera action here
+    },
+    DSTabAction(icon: UIImage(systemName: "photo.fill")) {
+        // Handle the photo action here
+    },
+    DSTabAction(icon: UIImage(systemName: "mic.fill")) {
+        // Handle the microphone action here
+    }
+]
 ```
 
 ## License
