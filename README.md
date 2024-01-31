@@ -32,6 +32,11 @@ Brief description of your project.
 
 ## Dynamic Buttons
 
+```swift    
+        let button = DSButton(style: .dotLoading)
+```
+![dotLoading](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/a97e423e-ee7f-4f54-b490-d19f497b4294)
+
 ## Installation
 Instructions for installing the project.
 
