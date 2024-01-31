@@ -168,6 +168,19 @@ tabbar.tripleActions = [
 ]
 ```
 
+To achieve a dynamic tabBar that seamlessly integrates with your user interface, you have the flexibility to adjust various properties. These properties allow you to tailor the tab bar's appearance and behavior to perfectly match your design.
+
+```swift
+tabbar.height = 60
+tabbar.tabBarBackgroundColor = .white
+tabbar.tabBarCornerRadius = 30
+tabbar.width = 300
+tabbar.selectedTabIndex = 1
+tabbar.tabBarIndicatorColor = .systemPink
+tabbar.tabBarSelectedTabColor = .darkGray
+tabbar.tabBarTintColor = .darkGray
+```
+
 ## License
 
 DynamicSwiftKit is released under the MIT license.
