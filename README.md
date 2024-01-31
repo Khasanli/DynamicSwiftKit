@@ -186,11 +186,12 @@ tabbar.tabBarTintColor = .darkGray
 ```swift
 class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
 
-    let menuButton : UIButton = {
+    lazy var menuButton : UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(systemName: "line.3.horizontal.circle")?.withRenderingMode(.alwaysTemplate), for: .normal)
         button.tintColor = .white
+        button.addTarget(self, action: #selector(menuButtonTapped), for: .touchUpInside)
         return button
     }()
     
@@ -209,8 +210,6 @@ class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelega
     
     private func setButtonConstraint() {
         view.addSubview(menuButton)
-        menuButton.addTarget(self, action: #selector(menuButtonTapped), for: .touchUpInside)
-
         NSLayoutConstraint.activate([
             menuButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
             menuButton.widthAnchor.constraint(equalToConstant: 30),
@@ -262,6 +261,7 @@ class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelega
 
 }
 ```
+
 DSSideMenu offers various styles to customize the appearance and behavior of the side menu. Here are some of the available styles (some of them supports sub items):
 
 ```swift
@@ -318,7 +318,8 @@ sideMenu.topHeight = 50
 
 If you want to simplify the configuration of menu items and sub-menu items, you can utilize the action handlers provided below as examples. These handlers make it easier and cleaner to set up and customize the behavior of your menu items and sub-menu items.
 
-Add action types and handler
+Add action types and handler.
+
 
 ```swift
 enum SideMenuActionType {
@@ -444,104 +445,22 @@ extension ExampleSideMenuViewController : SideMenuActionHandlerProtocol {
 }
 ```
 
-## License
-
-DynamicSwiftKit is released under the MIT license.
-
+### Dynamic Button Examples
 
 ```swift
-class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
-
-    var sideMenu: DSSideMenu!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .gray
-        setView()
-    }
+class ExampleButtonViewController: UITabBarController {
     
-    private func setView() {
-
-        let image = UIImageView(image: UIImage(named: "line.3.horizontal.circle")?.withRenderingMode(.alwaysTemplate))
-        image.tintColor = .white
-        image.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(image)
-        NSLayoutConstraint.activate([
-            image.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            image.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1/2),
-            image.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1/2)
-        ])
-        
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setImage(UIImage(systemName: "line.3.horizontal.circle")?.withRenderingMode(.alwaysTemplate), for: .normal)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        button.tintColor = .white
-        view.addSubview(button)
-        NSLayoutConstraint.activate([
-            button.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
-            button.widthAnchor.constraint(equalToConstant: 30),
-            button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            button.heightAnchor.constraint(equalToConstant: 30),
-        ])
-        
-        let homeSubItem = DSSideMenuSubItem(title: "Dashboard", icon: nil, action: {print("Dashboard")})
-        let homeSubItem2 = DSSideMenuSubItem(title: "Notifications", icon: nil, action: {print("Notifications")})
-        let homeSubItem3 = DSSideMenuSubItem(title: "Trending", icon: nil, action: {print("Trending")})
-
-        let messageSubItem = DSSideMenuSubItem(title: "Unread", icon: UIImage(systemName: "message.badge"), action: {print("Unread")})
-        let messageSubItem2 = DSSideMenuSubItem(title: "Starred", icon: UIImage(systemName: "star"), action: {print("Starred")})
-        let messageSubItem3 = DSSideMenuSubItem(title: "Archived", icon: UIImage(systemName: "archivebox"), action: {print("Archived")})
-
-        let calendarSubItem = DSSideMenuSubItem(title: "Daily View", icon: nil, action: {print("Daily")})
-        let calendarSubItem2 = DSSideMenuSubItem(title: "Weekly View", icon: nil, action: {print("Weekly")})
-        let calendarSubItem3 = DSSideMenuSubItem(title: "Monthly View", icon: nil, action: {print("Monthly")})
-
-        let settingsSubItem = DSSideMenuSubItem(title: "Privacy Settings", icon: UIImage(systemName: "hand.raised.circle"), action: {print("Privacy")})
-        let settingsSubItem2 = DSSideMenuSubItem(title: "Notification Settings", icon: UIImage(systemName: "bell.circle"), action: {print("Notification")})
-
-        
-        let action1 = DSSideMenuItem(icon: UIImage(systemName: "house"), selectedIcon:  UIImage(systemName: "house.fill"), title: "Home", action: {print("Home")}, subItems: [homeSubItem, homeSubItem2, homeSubItem3])
-        
-        let action2 = DSSideMenuItem(icon: UIImage(systemName: "person"), selectedIcon:  UIImage(systemName: "person.fill"), title: "Profile", action: {print("Profile")}, subItems: nil)
-
-        let action3 = DSSideMenuItem(icon: UIImage(systemName: "message"), selectedIcon:  UIImage(systemName: "message.fill"), title: "Messages", action: {print("Messages")}, subItems: [messageSubItem, messageSubItem2, messageSubItem3])
-                        
-        let action4 = DSSideMenuItem(icon: UIImage(systemName: "calendar"), selectedIcon:  UIImage(systemName: "calendar"), title: "Calendar", action: {print("Calendar")}, subItems: [calendarSubItem, calendarSubItem2, calendarSubItem3])
-
-        let action5 = DSSideMenuItem(icon: UIImage(systemName: "chart.bar.doc.horizontal"), selectedIcon:  UIImage(systemName: "chart.bar.doc.horizontal"), title: "Activities", action: {print("Activities")}, subItems: nil)
-        
-        let action6 = DSSideMenuItem(icon: UIImage(systemName: "gearshape"), selectedIcon:  UIImage(systemName: "gearshape.fill"), title: "Settings", action: {print("Settings")}, subItems: [settingsSubItem, settingsSubItem2])
-        
-        let action7 = DSSideMenuItem(icon: UIImage(systemName: "info.circle"), selectedIcon:  UIImage(systemName: "info.circle"), title: "About us", action: {print("seven")}, subItems: nil)
-
-        let items : [DSSideMenuItem] = [action1, action2, action3, action4, action5, action6, action7]
+    lazy var dynamicButton : DSButton = {
+        let dsbutton = DSButton(style: .dotLoading)
+        dsbutton.titleColor = .red
+        dsbutton.titleText = "Button"
+        dsbutton.backgroundColor = .darkGray
+        dsbutton.translatesAutoresizingMaskIntoConstraints = false
+        dsbutton.layer.cornerRadius = 10
+        dsbutton.addTarget(self, action: #selector(dynamicButtonTapped(_:)), for: .touchUpInside)
+        return dsbutton
+    }()
     
-        
-        sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
-            
-    }
-    
-    @objc func buttonTapped() {
-        sideMenu.openMenu()
-    }
-    
-    internal func removeExistingView(_ view: UIView?) {
-       guard let view = view else { return }
-       NSLayoutConstraint.deactivate(view.constraints)
-       view.removeFromSuperview()
-   }
-
-   
-}
-```
-
-
-class ExampleButtonViewController: UIViewController {
-
-    let button = LibButton(style: .roundLoading)
-
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -549,15 +468,82 @@ class ExampleButtonViewController: UIViewController {
     }
     
     private func setView() {
-        button.titleText = "Button"
-        button.translatesAutoresizingMaskIntoConstraints = false
-
-        view.addSubview(button)
-          NSLayoutConstraint.activate([
-            button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            button.heightAnchor.constraint(equalToConstant: 60),
-            button.widthAnchor.constraint(equalToConstant: 160)
+        view.addSubview(dynamicButton)
+        NSLayoutConstraint.activate([
+            dynamicButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            dynamicButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            dynamicButton.widthAnchor.constraint(equalToConstant: 150),
+            dynamicButton.heightAnchor.constraint(equalToConstant: 50)
         ])
-      }
+    }
+    
+    @objc func dynamicButtonTapped(_ sender: UIButton) {
+        dynamicButton.animate()
+    }
 }
+
+```
+
+DSButton offers various styles to customize the appearance and behavior of the button. Here are some of the available styles:
+
+
+```swift
+
+// Line loading
+let dsbutton = DSButton(style: .lineLoading)
+
+// Round loading
+let dsbutton = DSButton(style: .roundLoading)
+
+// Multiple Share
+let dsbutton = DSButton(style: .multipleShare)
+
+// Dot loading
+let dsbutton = DSButton(style: .dotLoading)
+
+// Gradient
+let dsbutton = DSButton(style: .gradient)
+
+```
+
+To achieve a dynamic button that seamlessly integrates with your user interface, you have the flexibility to adjust various properties. These properties allow you to tailor the button's appearance and behavior to perfectly match your design.
+
+```swift
+
+dsbutton.imageHeight = 40
+dsbutton.image = UIImage(systemName: "heart.fill")
+dsbutton.imageSide = .left
+dsbutton.loadingText = "Leading"
+dsbutton.resultText = "Result"
+dsbutton.font = .systemFont(ofSize: 15)
+
+```
+
+For creating gradient animation you have to set left and right gradient colors.
+
+
+```swift
+
+dsbutton.gradientStyle = .leftToRight
+dsbutton.leftGradientColor = .yellow
+dsbutton.rightGradientColor = .blue
+
+```
+
+There is two important properties to pay attention. The first one is 'timeout', which enables you to cancel an animation after a specified time period. By default, the timeout is set to 10 seconds, but you have the flexibility to customize it according to your needs. The second property of importance is 'result', which you can set when you receive a result. This property is responsible for handling the removal of the animation. 
+
+
+```swift
+
+dsbutton.timeout = 20
+dsbutton.result = true
+
+// You can use this method to stop animation.
+dsbutton.stopAnimate()
+
+```
+
+## License
+
+DynamicSwiftKit is released under the MIT license.
+
