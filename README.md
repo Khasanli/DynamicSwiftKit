@@ -28,7 +28,6 @@ Brief description of your project.
 ```
 ![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
 
-```markdown
 
 ## Dynamic Buttons
 
