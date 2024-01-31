@@ -18,17 +18,17 @@ Brief description of your project.
 ## Features
 
 ## Dynamic TabBars
-```swift
-        let tabs = [LibTab(icon: UIImage(systemName: "house.fill")),
-                    LibTab(icon: UIImage(systemName: "heart.fill")),
-                    LibTab(icon: UIImage(systemName: "person.fill")),
-                    LibTab(icon: UIImage(systemName: "gearshape.fill"))]
-                    
+```swift    
         let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
-
 ```
 
 ## Dynamic Side menus
+```swift    
+        let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
+```
+![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
+
+```markdown
 
 ## Dynamic Buttons
 
@@ -167,7 +167,6 @@ class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelega
    
 }
 ```
-![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
 
 
 class ExampleButtonViewController: UIViewController {
