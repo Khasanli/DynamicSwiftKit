@@ -3,19 +3,34 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Code Examples](#code-examples)
-6. [Contributing](#contributing)
-7. [License](#license)
+    - [Dynamic TabBars](#dynamic-tabbars)
+    - [Dynamic Side menus](#dynamic-side-menus)
+    - [Dynamic Buttons](#dynamic-buttons)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Code Examples](#code-examples)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 Brief description of your project.
 
 ## Features
-- Animated TabBars
-- Animated Side menus
-- Animated Buttons
+
+## Dynamic TabBars
+```swift
+        let tabs = [LibTab(icon: UIImage(systemName: "house.fill")),
+                    LibTab(icon: UIImage(systemName: "heart.fill")),
+                    LibTab(icon: UIImage(systemName: "person.fill")),
+                    LibTab(icon: UIImage(systemName: "gearshape.fill"))]
+                    
+        let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
+
+```
+
+## Dynamic Side menus
+
+## Dynamic Buttons
 
 ## Installation
 Instructions for installing the project.
