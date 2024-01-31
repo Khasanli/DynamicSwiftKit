@@ -60,15 +60,12 @@ class ExampleTabBarViewController: UITabBarController {
     }
 }
 ```
-![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
-
 
 ## Contributing
 
 ## License
 
-//
-
+```swift
 class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
 
     var sideMenu: DSSideMenu!
@@ -154,6 +151,8 @@ class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelega
 
    
 }
+```
+![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/22c731b8-69bb-44d0-b75f-488ccad96dd8)
 
 
 class ExampleButtonViewController: UIViewController {
