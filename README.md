@@ -115,7 +115,7 @@ class ExampleTabBarViewController: UITabBarController {
 }
 ```
 
-The DSTabBar offers various styles to customize the appearance and behavior of the tab bar. Here are some of the available styles:
+DSTabBar offers various styles to customize the appearance and behavior of the tab bar. Here are some of the available styles:
 
 ```swift
 
@@ -182,6 +182,267 @@ tabbar.tabBarTintColor = .darkGray
 ```
 
 ### Dynamic Side Menu Examples
+
+```swift
+class ExampleSideMenuViewController: UIViewController, UIGestureRecognizerDelegate {
+
+    let menuButton : UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(systemName: "line.3.horizontal.circle")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        button.tintColor = .white
+        return button
+    }()
+    
+    var sideMenu: DSSideMenu!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setView()
+    }
+    
+    private func setView() {
+        view.backgroundColor = .gray
+        setButtonConstraint()
+        setSideMenu()
+    }
+    
+    private func setButtonConstraint() {
+        view.addSubview(menuButton)
+        menuButton.addTarget(self, action: #selector(menuButtonTapped), for: .touchUpInside)
+
+        NSLayoutConstraint.activate([
+            menuButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            menuButton.widthAnchor.constraint(equalToConstant: 30),
+            menuButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            menuButton.heightAnchor.constraint(equalToConstant: 30),
+        ])
+    }
+    
+    private func setSideMenu() {
+        let homeDashboard = DSSideMenuSubItem(title: "Dashboard", icon: nil, action: {print("Dashboard")})
+        let homeNotifications = DSSideMenuSubItem(title: "Notifications", icon: nil, action: {print("Notifications")})
+        let homeTrending = DSSideMenuSubItem(title: "Trending", icon: nil, action: {print("Trending")})
+
+        let messageUnread = DSSideMenuSubItem(title: "Unread", icon: UIImage(systemName: "message.badge"), action: {print("Unread")})
+        let messageStarred = DSSideMenuSubItem(title: "Starred", icon: UIImage(systemName: "star"), action: {print("Starred")})
+        let messageArchived = DSSideMenuSubItem(title: "Archived", icon: UIImage(systemName: "archivebox"), action: {print("Archived")})
+
+        let calendarDaily = DSSideMenuSubItem(title: "Daily View", icon: nil, action: {print("Daily")})
+        let calendarWeekly = DSSideMenuSubItem(title: "Weekly View", icon: nil, action: {print("Weekly")})
+        let calendarMonthly = DSSideMenuSubItem(title: "Monthly View", icon: nil, action: {print("Monthly")})
+
+        let settingsPrivacy = DSSideMenuSubItem(title: "Privacy Settings", icon: UIImage(systemName: "hand.raised.circle"), action: {print("Privacy")})
+        let settingsNotification = DSSideMenuSubItem(title: "Notification Settings", icon: UIImage(systemName: "bell.circle"), action: {print("Notification")})
+
+        let homeAction = DSSideMenuItem(icon: UIImage(systemName: "house"), selectedIcon:  UIImage(systemName: "house.fill"), title: "Home", action: {print("Home")}, subItems: [homeDashboard, homeNotifications, homeTrending])
+        
+        let profileAction = DSSideMenuItem(icon: UIImage(systemName: "person"), selectedIcon:  UIImage(systemName: "person.fill"), title: "Profile", action: {print("Profile")}, subItems: nil)
+
+        let messageAction = DSSideMenuItem(icon: UIImage(systemName: "message"), selectedIcon:  UIImage(systemName: "message.fill"), title: "Messages", action: {print("Messages")}, subItems: [messageUnread, messageStarred, messageArchived])
+                        
+        let calendarAction = DSSideMenuItem(icon: UIImage(systemName: "calendar"), selectedIcon:  UIImage(systemName: "calendar"), title: "Calendar", action: {print("Calendar")}, subItems: [calendarDaily, calendarWeekly, calendarMonthly])
+
+        let activitiesAction = DSSideMenuItem(icon: UIImage(systemName: "chart.bar.doc.horizontal"), selectedIcon:  UIImage(systemName: "chart.bar.doc.horizontal"), title: "Activities", action: {print("Activities")}, subItems: nil)
+        
+        let settingsAction = DSSideMenuItem(icon: UIImage(systemName: "gearshape"), selectedIcon:  UIImage(systemName: "gearshape.fill"), title: "Settings", action: {print("Settings")}, subItems: [settingsPrivacy, settingsNotification])
+        
+        let aboutUsAction = DSSideMenuItem(icon: UIImage(systemName: "info.circle"), selectedIcon:  UIImage(systemName: "info.circle"), title: "About us", action: {print("seven")}, subItems: nil)
+
+        let items : [DSSideMenuItem] = [homeAction, profileAction, messageAction, calendarAction, activitiesAction, settingsAction, aboutUsAction]
+    
+        
+        sideMenu = DSSideMenu(items: items, mainController: self, style: .submenu)
+
+    }
+    
+    @objc func menuButtonTapped() {
+        sideMenu.openMenu()
+    }
+
+}
+```
+DSSideMenu offers various styles to customize the appearance and behavior of the side menu. Here are some of the available styles (some of them supports sub items):
+
+```swift
+
+// Parallax
+sideMenu = DSSideMenu(items: items, mainController: self, style: .parallax)
+
+// Curve Selected
+sideMenu = DSSideMenu(items: items, mainController: self, style: .curveSelected)
+        
+// Curve Bottom
+sideMenu = DSSideMenu(items: items, mainController: self, style: .curveBottom)
+        
+// Collapsable - Supports sub items
+sideMenu = DSSideMenu(items: items, mainController: self, style: .collapsable)
+        
+// Submenu on side - Supports sub items
+sideMenu = DSSideMenu(items: items, mainController: self, style: .submenu)
+        
+// Top Menu - Supports sub items
+sideMenu = DSSideMenu(items: items, mainController: self, style: .topMenu)
+
+// Minimizable
+sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
+
+```
+
+To achieve a dynamic side menu that seamlessly integrates with your user interface, you have the flexibility to adjust various properties. These properties allow you to tailor the side menu's appearance and behavior to perfectly match your design.
+
+```swift
+
+sideMenu.side = .left
+sideMenu.subItemTintColor = .yellow
+sideMenu.subItemIndicatorColor = .yellow
+sideMenu.selectedItemTintColor = .yellow
+sideMenu.sideMenuBackgroundColor = .yellow
+sideMenu.selectedSubItemTintColor = .yellow
+sideMenu.sideMenuTintColor = .yellow
+sideMenu.logoTintColor = .yellow
+sideMenu.titleTextColor = .yellow
+sideMenu.leftGradientColor = .yellow
+sideMenu.rightGradientColor = .blue
+sideMenu.gradientStyle = .leftToRight
+sideMenu.topTitle = "Title"
+sideMenu.topLogo = UIImage(systemName: "info.circle")!
+sideMenu.blurred = true
+sideMenu.isOverlayed = true
+sideMenu.subItemFont = .systemFont(ofSize: 15)
+sideMenu.itemFont = .systemFont(ofSize: 24, weight: .bold)
+sideMenu.hideCloseButton = true
+sideMenu.topHeight = 50
+
+```
+
+If you want to simplify the configuration of menu items and sub-menu items, you can utilize the action handlers provided below as examples. These handlers make it easier and cleaner to set up and customize the behavior of your menu items and sub-menu items.
+
+Add action types and handler
+
+```swift
+enum SideMenuActionType {
+    
+    case homeDashboard
+    case homeNotifications
+    case homeTrending
+
+    case messageUnread
+    case messageStarred
+    case messageArchived
+    
+    case calendarDaily
+    case calendarWeekly
+    case calendarMonthly
+    
+    case settingsPrivacy
+    case settingsNotification
+    
+    case profileAction
+    case activitiesAction
+    case aboutUsAction
+}
+
+protocol SideMenuActionHandlerProtocol: AnyObject {
+    func perform(action: SideMenuActionType)
+}
+
+class SideMenuActionHandler {
+    
+    weak var delegate : SideMenuActionHandlerProtocol?
+    var items : [DSSideMenuItem] = []
+    
+    init() {
+        setActions()
+    }
+    
+    private func setActions() {
+        let homeDashboard = DSSideMenuSubItem(title: "Dashboard", icon: nil, action: {print("Dashboard")})
+        let homeNotifications = DSSideMenuSubItem(title: "Notifications", icon: nil, action: {print("Notifications")})
+        let homeTrending = DSSideMenuSubItem(title: "Trending", icon: nil, action: {print("Trending")})
+
+        let messageUnread = DSSideMenuSubItem(title: "Unread", icon: UIImage(systemName: "message.badge"), action: {print("Unread")})
+        let messageStarred = DSSideMenuSubItem(title: "Starred", icon: UIImage(systemName: "star"), action: {print("Starred")})
+        let messageArchived = DSSideMenuSubItem(title: "Archived", icon: UIImage(systemName: "archivebox"), action: {print("Archived")})
+
+        let calendarDaily = DSSideMenuSubItem(title: "Daily View", icon: nil, action: {print("Daily")})
+        let calendarWeekly = DSSideMenuSubItem(title: "Weekly View", icon: nil, action: {print("Weekly")})
+        let calendarMonthly = DSSideMenuSubItem(title: "Monthly View", icon: nil, action: {print("Monthly")})
+
+        let settingsPrivacy = DSSideMenuSubItem(title: "Privacy Settings", icon: UIImage(systemName: "hand.raised.circle"), action: {print("Privacy")})
+        let settingsNotification = DSSideMenuSubItem(title: "Notification Settings", icon: UIImage(systemName: "bell.circle"), action: {print("Notification")})
+
+        let homeAction = DSSideMenuItem(icon: UIImage(systemName: "house"), selectedIcon:  UIImage(systemName: "house.fill"), title: "Home", action: {print("Home")}, subItems: [homeDashboard, homeNotifications, homeTrending])
+        
+        let profileAction = DSSideMenuItem(icon: UIImage(systemName: "person"), selectedIcon:  UIImage(systemName: "person.fill"), title: "Profile", action: {print("Profile")}, subItems: nil)
+
+        let messageAction = DSSideMenuItem(icon: UIImage(systemName: "message"), selectedIcon:  UIImage(systemName: "message.fill"), title: "Messages", action: {print("Messages")}, subItems: [messageUnread, messageStarred, messageArchived])
+                        
+        let calendarAction = DSSideMenuItem(icon: UIImage(systemName: "calendar"), selectedIcon:  UIImage(systemName: "calendar"), title: "Calendar", action: {print("Calendar")}, subItems: [calendarDaily, calendarWeekly, calendarMonthly])
+
+        let activitiesAction = DSSideMenuItem(icon: UIImage(systemName: "chart.bar.doc.horizontal"), selectedIcon:  UIImage(systemName: "chart.bar.doc.horizontal"), title: "Activities", action: {print("Activities")}, subItems: nil)
+        
+        let settingsAction = DSSideMenuItem(icon: UIImage(systemName: "gearshape"), selectedIcon:  UIImage(systemName: "gearshape.fill"), title: "Settings", action: {print("Settings")}, subItems: [settingsPrivacy, settingsNotification])
+        
+        let aboutUsAction = DSSideMenuItem(icon: UIImage(systemName: "info.circle"), selectedIcon:  UIImage(systemName: "info.circle"), title: "About us", action: {print("seven")}, subItems: nil)
+
+        items = [homeAction, profileAction, messageAction, calendarAction, activitiesAction, settingsAction, aboutUsAction]
+    }
+}
+
+```
+
+Set Side menu
+
+```swift
+private func setSideMenu() {
+  
+    let sideMenuActionHandler = SideMenuActionHandler()
+    sideMenuActionHandler.delegate = self
+    sideMenu = DSSideMenu(items: sideMenuActionHandler.items, mainController: self, style: .submenu)
+
+}
+
+```
+
+And handle actions via protocol.
+
+```swift
+extension ExampleSideMenuViewController : SideMenuActionHandlerProtocol {
+    func perform(action: SideMenuActionType) {
+        switch action {
+        case .homeDashboard:
+            <#code#>
+        case .homeNotifications:
+            <#code#>
+        case .homeTrending:
+            <#code#>
+        case .messageUnread:
+            <#code#>
+        case .messageStarred:
+            <#code#>
+        case .messageArchived:
+            <#code#>
+        case .calendarDaily:
+            <#code#>
+        case .calendarWeekly:
+            <#code#>
+        case .calendarMonthly:
+            <#code#>
+        case .settingsPrivacy:
+            <#code#>
+        case .settingsNotification:
+            <#code#>
+        case .profileAction:
+            <#code#>
+        case .activitiesAction:
+            <#code#>
+        case .aboutUsAction:
+            <#code#>
+        }
+    }
+}
+```
 
 ## License
 
