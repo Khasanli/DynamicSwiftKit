@@ -19,13 +19,13 @@ Brief description of your project.
 
 ## Dynamic TabBars
 ```swift    
-        let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
+let tabbar = LibTabBar(tabs: tabs, tabBarController: self, style: .circle)
 ```
 ![curveSelected](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/65853548-7bb7-42a8-bcf1-db9eb64adc2d)
 
 ## Dynamic Side menus
 ```swift    
-        let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
+let sideMenu = DSSideMenu(items: items, mainController: self, style: .minimizable)
 ```
 ![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/219ae1a6-5d14-4c50-8c64-cd059c1d37b4)
 
@@ -33,7 +33,7 @@ Brief description of your project.
 ## Dynamic Buttons
 
 ```swift    
-        let button = DSButton(style: .dotLoading)
+let button = DSButton(style: .dotLoading)
 ```
 ![Untitled design](https://github.com/Khasanli/DynamicSwiftKit/assets/47345666/3a394743-fa1f-4886-a536-e13f8cd3169e)
 
