@@ -100,7 +100,7 @@ class ExampleTabBarViewController: UITabBarController {
         let search = UIViewController()
         search.view.backgroundColor = .cyan.withAlphaComponent(0.6)
 
-        viewControllers = [example, home, search, person]
+        viewControllers = [home, heart, person, search]
 
         let tabs = [DSTab(icon: UIImage(systemName: "house.fill")),
                     DSTab(icon: UIImage(systemName: "heart.fill")),
