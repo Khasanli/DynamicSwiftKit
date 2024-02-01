@@ -179,6 +179,7 @@ tabbar.selectedTabIndex = 1
 tabbar.tabBarIndicatorColor = .systemPink
 tabbar.tabBarSelectedTabColor = .darkGray
 tabbar.tabBarTintColor = .darkGray
+tabbar.tabBarShadowColor = .white
 ```
 
 ### Dynamic Side Menu Examples
