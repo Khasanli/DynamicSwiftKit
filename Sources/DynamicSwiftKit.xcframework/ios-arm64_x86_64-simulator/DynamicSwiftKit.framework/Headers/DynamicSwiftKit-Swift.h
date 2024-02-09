@@ -317,12 +317,14 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@protocol UIViewControllerTransitionCoordinator;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
-@interface DSSideMenu : UIViewController
+@interface DSSideMenu : UIViewController <UIViewControllerTransitioningDelegate>
 - (void)openMenu;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -664,12 +666,14 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@protocol UIViewControllerTransitionCoordinator;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
-@interface DSSideMenu : UIViewController
+@interface DSSideMenu : UIViewController <UIViewControllerTransitioningDelegate>
 - (void)openMenu;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
