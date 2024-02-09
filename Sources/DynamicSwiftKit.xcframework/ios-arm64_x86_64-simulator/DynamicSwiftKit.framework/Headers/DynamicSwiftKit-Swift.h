@@ -322,7 +322,10 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
 @interface DSSideMenu : UIViewController <UIViewControllerTransitioningDelegate>
+/// The method to open the menu.
 - (void)openMenu;
+/// The method to close menu manually.
+- (void)closeMenu;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
@@ -671,7 +674,10 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSButton")
 
 SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
 @interface DSSideMenu : UIViewController <UIViewControllerTransitioningDelegate>
+/// The method to open the menu.
 - (void)openMenu;
+/// The method to close menu manually.
+- (void)closeMenu;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;

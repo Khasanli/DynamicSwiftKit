@@ -302,6 +302,10 @@ public protocol DSTabBarProtocol : AnyObject {
     get
     set
   }
+  @_Concurrency.MainActor(unsafe) public var blurred: Swift.Bool? {
+    get
+    set
+  }
   @_Concurrency.MainActor(unsafe) public var hideCloseButton: Swift.Bool? {
     get
     set
@@ -319,6 +323,7 @@ public protocol DSTabBarProtocol : AnyObject {
     set
   }
   @objc @_Concurrency.MainActor(unsafe) public func openMenu()
+  @objc @_Concurrency.MainActor(unsafe) public func closeMenu()
   @_Concurrency.MainActor(unsafe) public init(items: [DynamicSwiftKit.DSSideMenuItem], mainController: UIKit.UIViewController, style: DynamicSwiftKit.DSSideMenuStyle = .defaults)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
