@@ -324,6 +324,7 @@ public protocol DSTabBarProtocol : AnyObject {
   }
   @objc @_Concurrency.MainActor(unsafe) public func openMenu()
   @objc @_Concurrency.MainActor(unsafe) public func closeMenu()
+  @objc @_Concurrency.MainActor(unsafe) public func presentViewController(vc: UIKit.UIViewController, animated: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public init(items: [DynamicSwiftKit.DSSideMenuItem], mainController: UIKit.UIViewController, style: DynamicSwiftKit.DSSideMenuStyle = .defaults)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit

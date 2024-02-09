@@ -326,6 +326,7 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit10DSSideMenu")
 - (void)openMenu;
 /// The method to close menu manually.
 - (void)closeMenu;
+- (void)presentViewControllerWithVc:(UIViewController * _Nonnull)vc animated:(BOOL)animated;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;

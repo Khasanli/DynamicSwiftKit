@@ -10375,6 +10375,42 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "presentViewController",
+            "printedName": "presentViewController(vc:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DynamicSwiftKit@objc(cs)DSSideMenu(im)presentViewControllerWithVc:animated:",
+            "mangledName": "$s15DynamicSwiftKit10DSSideMenuC21presentViewController2vc8animatedySo06UIViewH0C_SbtF",
+            "moduleName": "DynamicSwiftKit",
+            "objc_name": "presentViewControllerWithVc:animated:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(items:mainController:style:)",
@@ -20064,77 +20100,63 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 7498,
+      "offset": 7505,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7753,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 7598,
-      "length": 4,
-      "value": "0.45"
-    },
-    {
-      "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
-      "kind": "FloatLiteral",
-      "offset": 7605,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
-      "kind": "FloatLiteral",
-      "offset": 7662,
-      "length": 4,
-      "value": "0.10"
-    },
-    {
-      "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
-      "kind": "FloatLiteral",
-      "offset": 7669,
+      "offset": 7893,
       "length": 3,
-      "value": "0.0"
+      "value": "0.4"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "StringLiteral",
-      "offset": 8773,
+      "offset": 9126,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "FloatLiteral",
-      "offset": 9563,
+      "offset": 9916,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 9714,
+      "offset": 10067,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 9720,
+      "offset": 10073,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10627,
+      "offset": 10980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Defaults\/DSSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12043,
+      "offset": 12396,
       "length": 2,
       "value": "20"
     },
@@ -21121,70 +21143,70 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 4864,
+      "offset": 4899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5176,
+      "offset": 5211,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5638,
+      "offset": 5673,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 5973,
+      "offset": 6008,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 6521,
+      "offset": 6556,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 6649,
+      "offset": 6684,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 6786,
+      "offset": 6821,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 6916,
+      "offset": 6951,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7035,
+      "offset": 7070,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSParallaxSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 7160,
+      "offset": 7195,
       "length": 2,
       "value": "-5"
     },
@@ -21961,224 +21983,224 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 10496,
+      "offset": 10531,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10545,
+      "offset": 10580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 10666,
+      "offset": 10701,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10814,
+      "offset": 10849,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 10939,
+      "offset": 10974,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 10977,
+      "offset": 11012,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11244,
+      "offset": 11279,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11374,
+      "offset": 11409,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 11420,
+      "offset": 11455,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11542,
+      "offset": 11577,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 11701,
+      "offset": 11736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 11957,
+      "offset": 11992,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12173,
+      "offset": 12208,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 12229,
+      "offset": 12264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12352,
+      "offset": 12387,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "BooleanLiteral",
-      "offset": 12410,
+      "offset": 12445,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12539,
+      "offset": 12574,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 12665,
+      "offset": 12700,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 13185,
+      "offset": 13220,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15014,
+      "offset": 15049,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15088,
+      "offset": 15123,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15100,
+      "offset": 15135,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15697,
+      "offset": 15732,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15740,
+      "offset": 15775,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15810,
+      "offset": 15845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 15922,
+      "offset": 15957,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 16059,
+      "offset": 16094,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 16469,
+      "offset": 16504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 17075,
+      "offset": 17110,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 17118,
+      "offset": 17153,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 17304,
+      "offset": 17339,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftSideMenu\/Styles\/DSSubmenuSideMenu.swift",
       "kind": "IntegerLiteral",
-      "offset": 17444,
+      "offset": 17479,
       "length": 1,
       "value": "2"
     },
