@@ -100,7 +100,7 @@ class ExampleTabBarViewController: UITabBarController {
         let search = UIViewController()
         search.view.backgroundColor = .cyan.withAlphaComponent(0.6)
 
-        viewControllers = [example, home, search, person]
+        viewControllers = [home, heart, person, search]
 
         let tabs = [DSTab(icon: UIImage(systemName: "house.fill")),
                     DSTab(icon: UIImage(systemName: "heart.fill")),
@@ -179,6 +179,7 @@ tabbar.selectedTabIndex = 1
 tabbar.tabBarIndicatorColor = .systemPink
 tabbar.tabBarSelectedTabColor = .darkGray
 tabbar.tabBarTintColor = .darkGray
+tabbar.tabBarShadowColor = .white
 ```
 
 ### Dynamic Side Menu Examples
