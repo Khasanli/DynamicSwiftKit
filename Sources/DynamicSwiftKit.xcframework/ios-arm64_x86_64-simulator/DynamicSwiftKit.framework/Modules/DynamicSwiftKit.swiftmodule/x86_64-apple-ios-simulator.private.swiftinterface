@@ -93,6 +93,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) public func animate()
   @_Concurrency.MainActor(unsafe) public func stopAnimate()
+  @_Concurrency.MainActor(unsafe) public func setActions(_ actions: [DynamicSwiftKit.DSButtonAction])
   @objc deinit
 }
 public enum DSGradientStyle {
@@ -109,6 +110,9 @@ public enum DSGradientStyle {
 }
 public struct DSSideMenuSubItem {
   public init(title: Swift.String? = nil, selectedIcon: UIKit.UIImage? = nil, icon: UIKit.UIImage?, action: (() -> Swift.Void)?)
+}
+public struct DSButtonAction {
+  public init(image: UIKit.UIImage, action: @escaping () -> Swift.Void)
 }
 public enum DSSide {
   case left

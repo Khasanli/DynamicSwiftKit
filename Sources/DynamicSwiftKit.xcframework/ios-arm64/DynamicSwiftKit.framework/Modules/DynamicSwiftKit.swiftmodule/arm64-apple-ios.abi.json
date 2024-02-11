@@ -2339,6 +2339,41 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setActions",
+            "printedName": "setActions(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DynamicSwiftKit.DSButtonAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSButtonAction",
+                    "printedName": "DynamicSwiftKit.DSButtonAction",
+                    "usr": "s:15DynamicSwiftKit14DSButtonActionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit8DSButtonC10setActionsyySayAA0D6ActionVGF",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC10setActionsyySayAA0D6ActionVGF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -3009,6 +3044,64 @@
         "moduleName": "DynamicSwiftKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DSButtonAction",
+        "printedName": "DSButtonAction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSButtonAction",
+                "printedName": "DynamicSwiftKit.DSButtonAction",
+                "usr": "s:15DynamicSwiftKit14DSButtonActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DynamicSwiftKit14DSButtonActionV5image6actionACSo7UIImageC_yyctcfc",
+            "mangledName": "$s15DynamicSwiftKit14DSButtonActionV5image6actionACSo7UIImageC_yyctcfc",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15DynamicSwiftKit14DSButtonActionV",
+        "mangledName": "$s15DynamicSwiftKit14DSButtonActionV",
+        "moduleName": "DynamicSwiftKit",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
