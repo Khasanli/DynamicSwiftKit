@@ -520,6 +520,28 @@ dsbutton.font = .systemFont(ofSize: 15)
 
 ```
 
+For creating multipleShare button you have to set actions for DSButton.
+
+```swift
+
+dsbutton.setActions([
+    .init(image: UIImage(named: "facebook")!, action: {}),
+    .init(image: UIImage(named: "instagram")!, action: {}),
+    .init(image: UIImage(named: "telegram")!, action: {}),
+    .init(image: UIImage(named: "whatsapp")!, action: {}),
+    .init(image: UIImage(named: "twitter")!, action: {})
+])
+
+```
+
+```swift
+
+dsbutton.gradientStyle = .leftToRight
+dsbutton.leftGradientColor = .yellow
+dsbutton.rightGradientColor = .blue
+
+```
+
 For creating gradient animation you have to set left and right gradient colors.
 
 
