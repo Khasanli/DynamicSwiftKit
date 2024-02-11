@@ -317,6 +317,31 @@ sideMenu.topHeight = 50
 
 ```
 
+To display a view controller in response to a side menu action, you should invoke the presentViewController(vc: UIViewController) method. This method will present the specified view controller modally, allowing you to transition smoothly from the side menu to the new content.
+
+```swift
+
+let messageAction = DSSideMenuItem(icon: UIImage(systemName: "message"), selectedIcon:  UIImage(systemName: "message.fill"), title: "Messages", action: {
+    let vc = MessageViewController()
+    vc.modalPresentationStyle = .fullScreen
+    vc.modalTransitionStyle = .crossDissolve
+    self.sideMenu.presentViewController(vc: vc)    
+}, subItems: nil)
+
+class MessageViewController : UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .red
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+}
+
+
+```
+
 If you want to simplify the configuration of menu items and sub-menu items, you can utilize the action handlers provided below as examples. These handlers make it easier and cleaner to set up and customize the behavior of your menu items and sub-menu items.
 
 Add action types and handler.
