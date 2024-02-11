@@ -2298,8 +2298,8 @@
           },
           {
             "kind": "Function",
-            "name": "setSide",
-            "printedName": "setSide()",
+            "name": "animate",
+            "printedName": "animate()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2308,8 +2308,29 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15DynamicSwiftKit8DSButtonC7setSideyyF",
-            "mangledName": "$s15DynamicSwiftKit8DSButtonC7setSideyyF",
+            "usr": "s:15DynamicSwiftKit8DSButtonC7animateyyF",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC7animateyyF",
+            "moduleName": "DynamicSwiftKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopAnimate",
+            "printedName": "stopAnimate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DynamicSwiftKit8DSButtonC11stopAnimateyyF",
+            "mangledName": "$s15DynamicSwiftKit8DSButtonC11stopAnimateyyF",
             "moduleName": "DynamicSwiftKit",
             "declAttributes": [
               "Custom",
@@ -11476,91 +11497,91 @@
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 9871,
+      "offset": 9872,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 10129,
+      "offset": 10130,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 10191,
+      "offset": 10192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 10243,
+      "offset": 10244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 10313,
+      "offset": 10314,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 10333,
+      "offset": 10334,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 10606,
+      "offset": 10607,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 10657,
+      "offset": 10658,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 10945,
+      "offset": 10946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 11019,
+      "offset": 11020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 11246,
+      "offset": 11247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 12009,
+      "offset": 12024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khayalahasanli\/Desktop\/DynamicSwiftKitFramework\/DynamicSwiftKit\/DynamicSwiftKit\/Resources\/DynamicSwiftButton\/Defaults\/DSButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 12231,
+      "offset": 12246,
       "length": 5,
       "value": "false"
     },

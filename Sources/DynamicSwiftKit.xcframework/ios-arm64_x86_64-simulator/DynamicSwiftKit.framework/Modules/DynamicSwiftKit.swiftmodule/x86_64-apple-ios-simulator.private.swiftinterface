@@ -91,7 +91,8 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
   @_Concurrency.MainActor(unsafe) public init(style: DynamicSwiftKit.DSButtonStyle)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public func setSide()
+  @_Concurrency.MainActor(unsafe) public func animate()
+  @_Concurrency.MainActor(unsafe) public func stopAnimate()
   @objc deinit
 }
 public enum DSGradientStyle {
