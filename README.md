@@ -553,6 +553,21 @@ dsbutton.rightGradientColor = .blue
 
 ```
 
+
+If you want to add shadow to button you can use code below.
+
+
+```swift
+
+dsbutton.layer.shadowColor = UIColor.black.cgColor
+dsbutton.layer.shadowOpacity = 1.0
+dsbutton.layer.shadowRadius = 5
+dsbutton.layer.shadowOffset = CGSize(width: 1, height: 1)
+dsbutton.layer.masksToBounds = false
+
+```
+
+
 There is two important properties to pay attention. The first one is 'timeout', which enables you to cancel an animation after a specified time period. By default, the timeout is set to 10 seconds, but you have the flexibility to customize it according to your needs. The second property of importance is 'result', which you can set when you receive a result. This property is responsible for handling the removal of the animation. 
 
 
