@@ -343,6 +343,7 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSTabBar")
 @end
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -694,6 +695,7 @@ SWIFT_CLASS("_TtC15DynamicSwiftKit8DSTabBar")
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 #endif
